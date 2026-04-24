@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+// function with return value
+int multiply(int a, int b) {
+    return a * b;
+}
+
+int main() {
+    int result;
+    result = multiply(4, 6);
+
+    printf("Multiplication = %d\n", result);
+    return 0;
+}
